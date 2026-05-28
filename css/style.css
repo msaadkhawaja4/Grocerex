@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000000 !important;
+    cursor: pointer;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.nav-up-btn{
+    border: none;
+    background-color: transparent;
+}
+
+.nav-input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.banner-1 {
+    background-image: url('../images/banner-1.png');
+    background-position: center;
+    color: #FFFFFF;
+    padding-bottom: 75px;
+    padding-top: 100px;
+}
+
+.banner-1 .container h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: #333;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+}
+
+.footer-list li a:hover {
+    color: #30C983;
+}
+
+.categories .row > [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-1-btn-1{
+    background-color:  #000000;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.banner-1-btn-2{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.price-highlight {
+    color: #FF8227;
+}
+
+.nd2hr{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.categories-div-1{
+    width: 173px !important;
+}
+
+.categories-div-2{
+    width: 177px !important;
+}
+
+.categories-div-3{
+    width: 188px !important;
+}
+
+.categories-div-4{
+    width: 161px !important;
+}
+
+.categories-div-5{
+    width: 180px !important;
+}
+
+.categories-div-6{
+    width: 170px !important;
+}
+
+.shadow-bottom {
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.15);
+}
+
+.product-card-s1-btn{
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.topsellingproduct {
+    background-image: url('../images/sellingproductbg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.Freshfromfarm {
+    background-image: url('../images/sellingproductbg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.Freshfromfarm-section {
+    padding: 40px 0px 60px 0px;
+    margin: 50px 0px;
+}
+
+.Freshfromfarm h1 {
+    color: #30C983;
+}
+
+.product-s-card{
+    width: 280px !important;
+}
+
+.healty-card-left{
+  background-color: #C0F1A7;
+  max-height: 475px;
+}
+
+.healty-card-left-btn{
+  background-color: #FF8227;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 35px;
+}
+
+.healty-card-right-up{
+  background-color: #DEE9F7;
+}
+
+.healty-card-down-left{
+  background-color: #F7D4FF;
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+}
+
+.healty-card-down-left img{
+  height: 220px;
+  position: absolute;
+  left: -7px;
+}
+
+.healty-card-down-overlay{
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.healty-card-down-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.healty-card-down-title{
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.healty-card-down-right{
+    background-color: #FFF0BB;
+    height: 220px;
+    display: flex;
+    align-items: center;
+}
+
+.Shofeaturedproductsp{
+    margin-top: 100px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+    background-color: #FFDD4E;
+    background-image: url('../images/bg-pattern-011.png');
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-orange {
+    background-color: #FF8227;
+}
+
+.dot-black {
+    background-color: #000000;
+}
+
+.Ice-cream-tub {
+    background: radial-gradient(circle, #FFC8DC, #F89FBF);
+    margin-top: 80px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+}
+
+.Ice-cream-tub h1 {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.Ice-cream-tub p {
+    color: #FFFFFF;
+}
+
+.deals-title {
+    color: #FFFFFF;
+    background-color: #FF307A;
+    padding: 5px 40px;
+    border-radius: 40px 0px;
+}
+
+.highlight-free {
+    color: #FF307A;
+}
+
+.countdown-dots {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.time-dot {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FF307A9E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.time-number {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.time-label {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.view-all-deals-btn {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 12px 35px;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Ice-cream-tub .col-lg-6 img {
+        width: 100%;
+}
+
+.Freshfromfarm-section {
+    background: linear-gradient(0deg, #EBFCEA 0%, rgba(235, 252, 234, 0) 100%);
+}
+
+.brand-card{
+    text-align: center;
+}
+
+.lower-content{
+    background-color: #FFF9F1;
+    text-align: center;
+    padding: 30px;
+}
+
+.last-3rd-section{
+    background-image: url('../images/banner-img-2.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #FFFFFF;
+    z-index: 0;
+}
+
+.last-3rd-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.last-3rd-section-h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.last-3rd-section-h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.border-e1 {
+    border-color: #E1E1E1 !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.Freshfromfarm{
+    background-image: url('../images/fresh-leaf-3.png');
+    background-repeat: no-repeat;
+    background-position: 880px 825px;
+}

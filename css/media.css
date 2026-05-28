@@ -1,0 +1,386 @@
+
+@media (max-width: 576px) {
+    .banner-1 .container h1 {
+        font-size: 40px;
+    }
+
+    .banner-1 .container p br {
+        display: none;
+    }
+
+    .banner-1 {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    .healty-card-left img {
+        max-width: 65%;
+        overflow: hidden;
+    }
+
+    .Ice-cream-tub h1 {
+        font-size: 30px;
+    }
+
+    .deals-title h3 {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 991px) {
+    .healty-card-left img{
+      max-width: 225px;
+    }
+}
+
+@media (min-width: 786px) {
+    .brand-card{
+        width: 33% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .healty-card-down-overlay{
+      display: none;
+    }
+    
+    .healty-card-left,
+    .healty-card-right-up,
+    .healty-card-down-left,
+    .healty-card-down-right {
+        margin: 5px;
+    }
+
+    .Freshfromfarm-section {
+    padding: 40px 0px 50px 0px;
+    margin: 25px 0px;
+    }
+
+    .fresh-leaf-3{
+        display: none;
+    }
+
+    .last-3rd-section-h1{
+    font-size: 50px;
+    font-weight: 700;
+    }
+
+    .last-3rd-section-h2{
+    font-size: 30px;
+    font-weight: 700;
+    }
+
+    .last-3rd-section-h3{
+    font-size: 25px;
+    }
+
+    .online-store-content{
+        text-align: center;
+    }
+
+    .last-3rd-hr{
+        width: 30% !important;
+    }
+
+    .last-2nd-hr{
+        width: 40% !important;
+    }
+
+    .last-1st-hr{
+        width: 25% !important;
+    }
+
+    .banner-1 .container h1 {
+    font-weight: bold;
+    font-size: 55px;
+    }
+
+    .healty-card-left div img {
+        width: 200px;
+    }
+
+    .healty-card-right-up img{
+        width: 250px !important;
+        margin: 10px;
+    }
+
+    .Ice-cream-tub .col-lg-6 img{
+        width: 70% !important;
+    }
+
+}
+
+@media (max-width: 786px) {
+    .brand-card{
+        width: 50% !important;
+    }
+
+    .last-3rd-section-h1{
+    font-size: 40px;
+    font-weight: 700;
+    }
+
+    .last-3rd-section-h2{
+    font-size: 25px;
+    font-weight: 700;
+    }
+
+    .last-3rd-section-h3{
+    font-size: 15px;
+    }
+
+    .last-3rd-hr{
+        width: 20% !important;
+    }
+
+    .last-2nd-hr{
+        width: 25% !important;
+    }
+
+    .last-1st-hr{
+        width: 20% !important;
+    }
+
+    .banner-1 .container h1 {
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .healty-card-down-right {
+        height: auto !important;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .healty-card-down-right {
+        flex: 0 0 auto;
+        width: 63% !important;
+    }
+
+    .brand-card{
+        width: 20% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .topsellingproduct .row.text-center h1,
+    section > .row.container.m-auto > .row.text-center h1,
+    .Discountedproducts .row.text-center h1,
+    .Freshfromfarm .row.text-center h1,
+    .Shofeaturedproductsp .row.text-center h1 {
+        font-size: 45px;
+        font-weight: bold;
+    }
+}
+@media (max-width: 1400px) {
+   .categories-img-1{
+    padding:55px 55px 55px 54px;
+}
+
+.categories-img-2{
+    padding:55px 57px 55px 55px;
+}
+
+.categories-img-3{
+    padding:55px 55px 55px 55px;
+}
+
+.categories-img-4{
+    padding:55px 55px 55px 55px;
+}
+
+.categories-img-5{
+    padding:55px 55px 55px 55px;
+}
+
+.categories-img-6{
+    padding:55px 55px 55px 55px;
+}
+
+}
+@media (max-width: 1200px) {
+   .categories-img-1{
+    padding:50px 50px 50px 49px;
+}
+
+.categories-img-2{
+    padding:50px 52px 50px 50px;
+}
+
+.categories-img-3{
+    padding:50px 50px 50px 50px;
+}
+
+.categories-img-4{
+    padding:50px 50px 50px 50px;
+}
+
+.categories-img-5{
+    padding:50px 50px 50px 50px;
+}
+
+.categories-img-6{
+    padding:50px 50px 50px 50px;
+}
+
+    .healty-card-down-right {
+        height: 185px;
+    }
+
+    .fresh-leaf-3{
+        left:75px !important;
+    }
+
+}
+
+@media (min-width: 1400px) {
+   .categories-img-1{
+    padding:70px 70px 70px 69px;
+}
+
+.categories-img-2{
+    padding:70px 72px 70px 70px;
+}
+
+.categories-img-3{
+    padding:70px 70px 70px 70px;
+}
+
+.categories-img-4{
+    padding:70px 70px 70px 72px;
+}
+
+.categories-img-5{
+    padding:70px 70px 70px 70px;
+}
+
+.categories-img-6{
+    padding:70px 70px 70px 70px;
+}
+
+.healty-card-left-up-div{
+        margin-top: 20px !important;
+    }
+
+    .healty-card-left-down-div{
+        position: relative;
+        bottom: -25px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .topsellingproduct .row.text-center h1,
+    section > .row.container.m-auto > .row.text-center h1,
+    .Discountedproducts .row.text-center h1,
+    .Freshfromfarm .row.text-center h1,
+    .Shofeaturedproductsp .row.text-center h1 {
+        font-size: 45px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 786px) {
+    .topsellingproduct .row.text-center h1,
+    section > .row.container.m-auto > .row.text-center h1,
+    .Discountedproducts .row.text-center h1,
+    .Freshfromfarm .row.text-center h1,
+    .Shofeaturedproductsp .row.text-center h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 576px) {
+    .topsellingproduct .row.text-center h1,
+    section > .row.container.m-auto > .row.text-center h1,
+    .Discountedproducts .row.text-center h1,
+    .Freshfromfarm .row.text-center h1,
+    .Shofeaturedproductsp .row.text-center h1 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1200px) {
+    .healty-card-down-left {
+        max-height: 185px;
+    }
+
+    .fresh-leaf-1 {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .healty-card-down-right {
+        height: 245px;
+    }
+
+    .nav-input{
+    padding-left: 30px !important;
+    padding-right:30px !important;
+}
+}
+
+@media (max-width: 768px) {
+    .carousel-dots {
+        display: none;
+    }
+
+    .Ice-cream-tub .col-lg-6 img {
+        width: 90%;
+    }
+
+    
+    .fresh-leaf-2{
+        display: none;
+    }
+
+    .brand-card{
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .last-3rd-section-h1{
+    font-size: 35px;
+    font-weight: 700;
+    }
+
+    .last-3rd-section-h2{
+    font-size: 22px;
+    font-weight: 700;
+    }
+
+    .last-3rd-section-h3{
+    font-size: 13px;
+    }
+
+    .banner-1 .container h1 {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .brand-section-lower-content{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .healty-card-left-up-div{
+        margin: 10px 0px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .healty-card-left{
+        max-height: 440px !important;
+    }
+        .healty-card-left img {
+        max-width: 190px !important;
+    }
+}

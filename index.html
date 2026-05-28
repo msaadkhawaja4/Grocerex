@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocerex</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="container-fluid my-3">
+        <div class="container">
+            <div class="row my-3">
+                <div class="text-lg-start text-center col-lg-6 my-1">
+                    <a href="#"><img src="images/logo.svg" alt="Logo" class="img-fluid"></a>
+                </div>
+                <div class="d-flex justify-content-lg-end justify-content-center align-items-center col-lg-6 my-1">
+                    <a href="#"><img src="images/facebook.svg" alt="Facebook icon" class="m-1"></a>
+                    <a href="#"><img src="images/instagram.svg" alt="Instagram icon" class="m-1"></a>
+                    <a href="#"><img src="images/twitter.svg" alt="Twitter icon" class="m-1"></a>
+                    <a href="#"><img src="images/linked in.svg" alt="LinkedIn icon" class="m-1"></a>
+                    <a href="#" class="nav-up-btn ms-4">
+                        <img src="images/headphone.svg" alt="Headphone icon">
+                        Support
+                    </a>
+                    <a href="#" class="nav-up-btn ms-2">
+                        <img src="images/man.svg" alt="Headphone icon">
+                        Account
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <nav class="col-lg-6 text-lg-start text-center my-1 p-0 d-flex align-items-center justify-content-lg-start justify-content-center flex-wrap">
+                    <a class="text-decoration-none text-dark m-3" href="index.html">Home</a>
+                    <a class="text-decoration-none text-dark m-3" href="index.html">Hot Deals</a>
+                    <div class="dropdown m-3">
+                        <a class="text-decoration-none text-dark dropdown-toggle" href="#" id="shopDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down m-1" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="shopDropdown">
+                            <li><a class="dropdown-item" href="#">Lorem ipsum dolor</a></li>
+                            <li><a class="dropdown-item" href="#">Sit amet consectetur</a></li>
+                            <li><a class="dropdown-item" href="#">Adipiscing elit sed</a></li>
+                            <li><a class="dropdown-item" href="#">Do eiusmod tempor</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-decoration-none text-dark m-3" href="index.html">About</a>
+                    <a class="text-decoration-none text-dark m-3" href="index.html">Contact</a>
+                </nav>
+                <div class="col-lg-6 text-lg-end text-center my-1">
+                    <div class="search-container">
+                        <input class="nav-input" type="text">
+                        <i class="bi bi-search search-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid banner-1">
+        <div class="container">
+            <h1>Providing Healty <br> Super Organic <br> Produce</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore
+                et dolore magna aliqua.</p>
+            <div class="row">
+                <button class="banner-1-btn-1 col-lg-2 col-sm-6 col-6 m-3 p-2">Shop Now</button>
+                <button class="banner-1-btn-2 col-lg-2 col-sm-6 col-6 m-3 p-2">Find Out More</button>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid categories">
+        <div class="row container justify-content-xl-around justify-content-center mx-auto">
+            <div class="categories-div-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 my-4 p-0">
+                <div class="shadow-bottom">
+                    <a href="#"><img src="images/fruits.svg" alt="fruits" class="border border-e1 categories-img-1"></a>
+                </div>
+                <div class="my-3">Fruits & Vegetables</div>
+            </div>
+            <div class="categories-div-2 col-xl-2 col-lg-3 col-md-4 col-sm-6 my-4 p-0">
+                <div class="shadow-bottom">
+                    <a href="#"><img src="images/grocery.svg" alt="Grocery" class="border border-e1 categories-img-2"></a>
+                </div>
+                <div class="my-3">Grocery</div>
+            </div>
+            <div class="categories-div-3 col-xl-2 col-lg-3 col-md-4 col-sm-6 my-4 p-0">
+                <div class="shadow-bottom">
+                    <a href="#"><img src="images/bakery.svg" alt="Bakery" class="border border-e1 categories-img-3"></a>
+                </div>
+                <div class="my-3">Bakery & Dairy</div>
+            </div>
+            <div class="categories-div-4 col-xl-2 col-lg-3 col-md-4 col-sm-6 my-4 p-0">
+                <div class="shadow-bottom">
+                    <a href="#"><img src="images/beverage.svg" alt="Beverage" class="border border-e1 categories-img-4"></a>
+                </div>
+                <div class="my-3">Beverage</div>
+            </div>
+            <div class="categories-div-5 col-xl-2 col-lg-3 col-md-4 col-sm-6 my-4 p-0">
+                <div class="shadow-bottom">
+                    <a href="#"><img src="images/snacks.svg" alt="Snacks" class="border border-e1 categories-img-5"></a>
+                </div>
+                <div class="my-3">Biscuits Snacks</div>
+            </div>
+            <div class="categories-div-6 col-xl-2 col-lg-3 col-md-4 col-sm-6 my-4 p-0">
+                <div class="shadow-bottom">
+                    <a href="#"><img src="images/instantfood.svg" alt="Instant Food" class="border border-e1 categories-img-6"></a>
+                </div>
+                <div class="my-3">Instant Food</div>
+            </div>
+        </div>
+    </section>
+    <hr class="nd2hr">
+    <section class="container-fluid">
+        <div class="topsellingproduct container">
+            <div class="row text-center">
+                <h1>Top selling products</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+            <div class="row text-center justify-content-evenly g-4">
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white">
+                        <img src="images/yougert.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Sweet Yogurt - Strawberry</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white position-relative">
+                        <img src="images/on-sale.png" alt="on sale" class="position-absolute top-0 start-0 img-fluid"
+                            style="width: 75px;">
+                        <img src="images/pink-yougert.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Sweet Yogurt - Strawberry</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white">
+                        <img src="images/saag.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Sweet Yogurt - Strawberry</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white">
+                        <img src="images/gb-milk.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Sweet Yogurt - Strawberry</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white">
+                        <img src="images/tomato.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Sweet Yogurt - Strawberry</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white">
+                        <img src="images/w-pasta.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Sweet Yogurt - Strawberry</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white position-relative">
+                        <img src="images/on-sale.png" alt="on sale" class="position-absolute top-0 start-0 img-fluid"
+                            style="width: 75px;">
+                        <img src="images/y-fruitmix.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Sweet Yogurt - Strawberry</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white">
+                        <img src="images/ketchup.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Sweet Yogurt - Strawberry</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="nd2hr">
+    <section class="container-fluid">
+        <div class="row container m-auto">
+            <div class="row text-center">
+                <h1>Choose to be healthy</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-lg-3 col-12 p-lg-2 p-4 rounded-5 healty-card-left text-center row mx-0">
+                <div class="col-lg-12 col-sm-6 healty-card-left-up-div">
+                    <h2 style="font-size: 1.5rem;" class="fw-bold text-center">Fresh Organic Vegetables</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="healty-card-left-btn">Shop Now</button>
+                </div>
+                <div class="col-lg-12 col-sm-6 healty-card-left-down-div">
+                    <img src="images/vegitables-1.png" alt="vegitable">
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="row col-lg-11 rounded-5 healty-card-right-up p-lg-2 p-4 ms-lg-3">
+                <div style="margin: auto;" class="col-sm-6 col-12 text-center text-sm-start">
+                    <h2 style="font-size: 1.5rem;" class="fw-bold">Fresh Organic Vegetables</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="healty-card-left-btn">Shop Now</button>
+                </div>
+                <div class="col-sm-6 col-12 d-flex justify-content-sm-end justify-content-center">
+                        <img src="images/fruits-1.png" alt="fruits" class="img-fluid">
+                    </div>
+                </div> 
+                <div class="row col-lg-11 justify-content-around mt-lg-3 ms-lg-1">
+                    <div class="col-lg-4 ms-lg-3 healty-card-down-left rounded-5">
+                        <div class="healty-card-down-overlay"></div>
+                        <div class="healty-card-down-content">
+                            <h3 class="healty-card-down-title">Get 20% Off</h3>
+                            <button style="padding: 10px 17px;" class="healty-card-left-btn">Shop Now</button>
+                        </div>
+                        <img class="img-fluid" src="images/coffee-1.png" alt="coffe">
+                    </div>
+                    <div class="row col-lg-9 rounded-5 healty-card-down-right p-2 ms-lg-3">
+                        <div class="col-lg-7 col-md-6">
+                            <h5 class="fw-bold">Safe & Healthy Juices</h5>
+                            <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <button class="healty-card-left-btn" style="padding: 10px 25px; font-size: 13px;">Shop Now</button>
+                        </div>
+                        <div class="col-lg-5 col-md-6 text-end">
+                            <img src="images/mango-bottles-1.png" alt="fruits" class="img-fluid" style="max-height: 110px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid Shofeaturedproductsp">
+        <div class="container">
+            <div class="row text-center m-4">
+                <h1>Shop featured products</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+            <div class="row text-center justify-content-evenly g-4">
+                <div class="col-lg-3 bg-white product-s-card border border-e1 p-0">
+                    <div>
+                        <img src="images/egg.png.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Sweet Yogurt - Strawberry</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 bg-white product-s-card border border-e1 p-0">
+                    <div class="position-relative">
+                        <img src="images/fresh-milk.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Fresh Milk - 500 ml</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 bg-white product-s-card border border-e1 p-0">
+                    <div>
+                        <img src="images/sliced-bread.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Lemon Soda - 350ml</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 bg-white product-s-card border border-e1 p-0">
+                    <div>
+                        <img src="images/cookies.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Chocolate Cookies</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot dot-orange"></span>
+                <span class="dot dot-black"></span>
+                <span class="dot dot-orange"></span>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="Discountedproducts container">
+            <div class="row text-center">
+                <h1>Discounted Products</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+            <div class="row text-center justify-content-evenly g-4">
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white">
+                        <img src="images/shampo.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white position-relative">
+                        <img src="images/on-sale.png" alt="on sale" class="position-absolute top-0 start-0 img-fluid"
+                            style="width: 75px;">
+                        <img src="images/popcorn.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white position-relative">
+                        <img src="images/on-sale.png" alt="on sale" class="position-absolute top-0 start-0 img-fluid"
+                            style="width: 75px;">
+                        <img src="images/shampo.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white position-relative">
+                        <img src="images/on-sale.png" alt="on sale" class="position-absolute top-0 start-0 img-fluid"
+                            style="width: 75px;">
+                        <img src="images/sugar.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white">
+                        <img src="images/cupcake.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white position-relative">
+                        <img src="images/on-sale.png" alt="on sale" class="position-absolute top-0 start-0 img-fluid"
+                            style="width: 75px;">
+                        <img src="images/cooking-oil.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white position-relative">
+                        <img src="images/on-sale.png" alt="on sale" class="position-absolute top-0 start-0 img-fluid"
+                            style="width: 75px;">
+                        <img src="images/cupcake.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div class="bg-white position-relative">
+                        <img src="images/on-sale.png" alt="on sale" class="position-absolute top-0 start-0 img-fluid"
+                            style="width: 75px;">
+                        <img src="images/ketchup.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid Ice-cream-tub">
+        <div class="container row mx-auto">
+            <div class="col-lg-6 text-center">
+                <img src="images/Ice-Cream-Jar-new-1.png" alt="Ice Cream Jar">
+            </div>
+            <div class="col-lg-6 d-flex align-items-center flex-column justify-content-center text-center">
+                <div class="deals-title">
+                    <h3 class="m-0">DEALS OF THE MONTH</h3>
+                </div>
+                <h1>Buy 2 ice cream tubs and get <span class="highlight-free">1 free</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="countdown-dots row justify-content-center g-3">
+                    <div class="col-6 col-sm-6 col-lg-3 d-flex justify-content-center">
+                        <div class="time-dot">
+                            <span class="time-number">01</span>
+                            <span class="time-label">DAYS</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-lg-3 d-flex justify-content-center">
+                        <div class="time-dot">
+                            <span class="time-number">03</span>
+                            <span class="time-label">HOURS</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-lg-3 d-flex justify-content-center">
+                        <div class="time-dot">
+                            <span class="time-number">37</span>
+                            <span class="time-label">MINUTES</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-lg-3 d-flex justify-content-center">
+                        <div class="time-dot">
+                            <span class="time-number">35</span>
+                            <span class="time-label">SECONDS</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="view-all-deals-btn">View All Deals</button>
+            </div>
+        </div>
+    </section>
+    <section class="Freshfromfarm-section container-fluid position-relative">
+        <div class="Freshfromfarm container text-center d-flex flex-column">
+            <!-- <img src="images/fresh-leaf-3.png" alt="fresh leaf" class=" fresh-leaf-3 position-absolute img-fluid" style="bottom: -160px; left: -75px; width: 150px; z-index: 1;"> -->
+            <div class="row text-center">
+                <h1>Fresh from the Farm</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+            <div class="row text-center justify-content-evenly g-4">
+                <div style="background-color: #A8E589;" class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div style="margin-top: 30px;">
+                        <h4 style="font-weight: bold;">Get 20% off</h4>
+                        <h6 style="font-weight: bold;">on fresh vegetables</h6>
+                    </div>
+                    <div style="position: relative;">
+                        <img src="images/fresh-leaf-2.png" alt="fresh leaf" class="fresh-leaf-2 position-absolute img-fluid" style="top: 265px; right:300px; z-index: 1;">
+                        <img src="images/fresh-pattern.png" alt="fresh" style="width: 80%;">
+                        <img src="images/ad-image-1.png" alt="ad" style="position: absolute; left: 0px; bottom: 0px;">
+                    </div>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0 bg-white">
+                    <div class="position-relative">
+                        <img src="images/saag.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0 bg-white">
+                    <div>
+                        <img src="images/tomato.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0 bg-white">
+                    <div class="position-relative">
+                        <img src="images/fresh-leaf-1.png" alt="fresh leaf" class="fresh-leaf-1 position-absolute img-fluid" style="bottom: 265px; left: 85px; z-index: 1;">
+                        <img src="images/fresh-leamon.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0 bg-white">
+                    <div>
+                        <img src="images/fresh-orange.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0 bg-white">
+                    <div>
+                        <img src="images/fresh-blackgrapes.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 product-s-card border border-e1 p-0 bg-white">
+                    <div>
+                        <img src="images/fresh-banana.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Anti Dandruff Shampoo</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div style="background-color: #FFC063;" class="col-lg-3 product-s-card border border-e1 p-0">
+                    <div style="margin-top: 30px;">
+                        <h4 style="font-weight: bold;">Get 20% off</h4>
+                        <h6 style="font-weight: bold;">on packed fruits</h6>
+                    </div>
+                    <div style="position: relative;">
+                        <img src="images/fresh-pattern.png" alt="fresh" style="width: 80%;">
+                        <img src="images/ad-image-2.png" alt="ad" style="position: absolute; left: 45px; bottom: 0px;">
+                    </div>
+                </div>
+            </div>
+            <a style="text-decoration: none; color: black; margin: 50px 0px; font-size: 20px;" href="#">View all featured products <i class="bi bi-chevron-right"></i></a>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container">
+            <div class="upper-content row justify-content-around">
+                <div class="brand-card">
+                    <div><img src="images/Component 1.png" alt="component"></div>
+                    <div>
+                        <h4>Best prices & offers</h4>
+                        <p>Orders $50 or more</p>
+                    </div>
+                </div>
+                <div class="brand-card">
+                    <div><img src="images/Component 2.png" alt="component"></div>
+                    <div>
+                        <h4>Free delivery</h4>
+                        <p>24/7 amazing services</p>
+                    </div>
+                </div>
+                <div class="brand-card">
+                    <div><img src="images/Component 3.png" alt="component"></div>
+                    <div>
+                        <h4>Great daily deal</h4>
+                        <p>When you sign up</p>
+                    </div>
+                </div>
+                <div class="brand-card">
+                    <div><img src="images/Component 4.png" alt="component"></div>
+                    <div>
+                        <h4>Wide assortment</h4>
+                        <p>Mega Discounts</p>
+                    </div>
+                </div>
+                <div class="brand-card">
+                    <div><img src="images/Component 5.png" alt="component"></div>
+                    <div>
+                        <h4>Easy returns</h4>
+                        <p>Within 30 days</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="nd2hr">
+            <div class="lower-content  brand-section-lower-content">
+                <h2 style="font-weight: bold;">Brands that we have</h2>
+                <div class="row text-center justify-content-center g-3 mt-4">
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-1.png" alt="Brand 1" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-2.png" alt="Brand 2" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-3.png" alt="Brand 3" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-4.png" alt="Brand 4" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-5.png" alt="Brand 5" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-6.png" alt="Brand 6" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-7.png" alt="Brand 1" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-8.png" alt="Brand 2" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-9.png" alt="Brand 3" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-10.png" alt="Brand 4" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-11.png" alt="Brand 5" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-3">
+                        <img src="images/Brand-12.png" alt="Brand 6" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="last-3rd-section container-fluid">
+        <div style="padding: 100px 0px; gap: 15px;" class="container row flex-column align-items-center justify-content-center text-center mx-auto">
+            <h1 class="last-3rd-section-h1">Get 30% Discount</h1>
+            <h2 class="last-3rd-section-h2">on our newsletter signup</h2>
+            <h3 class="last-3rd-section-h3">and get updated information, news, insight or promotions.</h3>
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-2 mt-3 w-100">
+                <input type="email" class="form-control" placeholder="Enter your Email" style="max-width: 350px; padding: 10px 15px;">
+                <button class="btn" style="background-color: #FF8227; color: white; padding: 10px 25px; white-space: nowrap;">Get Started</button>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div style="margin: 50px 0px;" class="container row align-items-center justify-content-center mx-auto">
+            <div class="col-lg-6 online-store-content">
+                <h1 style="font-weight: bold;">Shop with Our</h1>
+                <h1 style="font-weight: bold;"><span style="color: #30C983;">Online Grocery Store</span> Today!</h1>
+                <button class="btn" style="background-color: #000000; color: white; padding: 10px 25px; white-space: nowrap;">Get Started</button>
+            </div>
+            <div class="col-lg-6 row justify-content-end">
+                <img style="width: 80%;" src="images/online-store-img.png" alt="Online Grocery Store" class="img-fluid">
+            </div>
+            <hr style="opacity: 1;">
+        </div>
+    </section>
+    <footer style="background-color: #F5FFFB;" class="container-fluid">
+        <div style="padding: 50px 0px;" class="last-container container mx-auto row">
+            <div class="col-lg-5">
+                <a href="#"><img src="images/logo.svg" alt="logo"></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <span style="color: #30C983;">Payment Accepted <img src="images/bank-cards.png" alt="cards"></span>
+            </div>
+            <div class="col-lg-6 row m-4">
+                <div class="col-lg-4 col-md-6">
+                    <ul class="footer-list">
+                        <li><h5 style="color: #30C983;">Support</h5></li>
+                        <li><hr class="last-3rd-hr" style="color: #30C983; width: 45%; opacity: 1;"></li>
+                        <li><a href="#">Track Your Order</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Help Centre</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul class="footer-list">
+                        <li><h5 style="color: #30C983;">Useful Links</h5></li>
+                        <li><hr class="last-2nd-hr" style="color: #30C983; width: 70%; opacity: 1;"></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">News & Articles</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul class="footer-list">
+                        <li><h5 style="color: #30C983;">Contact</h5></li>
+                        <li><hr class="last-1st-hr" style="color: #30C983; width: 50%; opacity: 1;"></li>
+                        <li><a href="#"><img src="images/address.svg" alt="Address">Plaza X , XY Floor, XYZ Street, XYZ</a></li>
+                        <li><a href="#"><img src="images/Email.svg" alt="Email">yourname@email.com</a></li>
+                        <li><a href="#"><img src="images/phone.svg" alt="Phone">+123-456-7890</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <p class="col-lg-8 text-lg-start">Copyright © 2023 Grocerex By Evonicmedia. All Rights Reserved.</p>
+                <p class="col-lg-4 text-lg-end">Powered by Evonicsoft</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var shopDropdown = document.getElementById('shopDropdown');
+            var dropdownEl = shopDropdown ? shopDropdown.closest('.dropdown') : null;
+            if (dropdownEl) {
+                dropdownEl.addEventListener('show.bs.dropdown', function () {
+                    var svg = dropdownEl.querySelector('svg');
+                    if (svg) {
+                        svg.outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up m-1" viewBox="0 0 16 16">' +
+                            '<path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>' +
+                            '</svg>';
+                    }
+                });
+                dropdownEl.addEventListener('hidden.bs.dropdown', function () {
+                    var svg = dropdownEl.querySelector('svg');
+                    if (svg) {
+                        svg.outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down m-1" viewBox="0 0 16 16">' +
+                            '<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>' +
+                            '</svg>';
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
