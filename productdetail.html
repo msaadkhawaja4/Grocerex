@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container-fluid my-3">
+        <div class="container">
+            <div class="row my-3">
+                <div class="text-md-start text-center col-md-6 my-1">
+                    <a href="#"><img src="images/logo.svg" alt="Logo" class="img-fluid"></a>
+                </div>
+                <div class="d-flex justify-content-md-end justify-content-center align-items-center col-md-6 my-1">
+                    <a href="#"><img src="images/facebook.svg" alt="Facebook icon" class="m-1"></a>
+                    <a href="#"><img src="images/instagram.svg" alt="Instagram icon" class="m-1"></a>
+                    <a href="#"><img src="images/twitter.svg" alt="Twitter icon" class="m-1"></a>
+                    <a href="#"><img src="images/linked in.svg" alt="LinkedIn icon" class="m-1"></a>
+                    <a href="commingsoon.html" class="nav-up-btn ms-4">
+                        <img src="images/headphone.svg" alt="Headphone icon">
+                        Support
+                    </a>
+                    <a href="accounts.html" class="nav-up-btn ms-2">
+                        <img src="images/man.svg" alt="Headphone icon">
+                        Account
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-sm-between header-hr-down-part">
+                <nav class="col-xxl-5 col-xl-6 col-lg-7 col-12 text-lg-start text-center my-1 p-0 d-flex align-items-center justify-content-lg-start justify-content-center flex-wrap">
+                    <a class="text-decoration-none text-dark m-md-3 m-2" href="hotdeals.html">Hot Deals</a>
+                    <div class="dropdown m-md-3 m-2" id="shopDropdownGroup">
+                        <div class="d-inline-flex align-items-center">
+                            <a class="text-decoration-none text-dark" href="shop.html">Shop</a>
+                            <span class="dropdown-chevron d-inline-flex align-items-center" style="cursor: pointer;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down m-1" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="productdetail.html">Product Detail</a></li>
+                            <li><a class="dropdown-item" href="register.html">Register</a></li>
+                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="error404.html">404</a></li>
+                            <li><a class="dropdown-item" href="commingsoon.html">comming soon</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-decoration-none text-dark m-md-3 m-2" href="index.html">Home</a>
+                    <a class="text-decoration-none text-dark m-md-3 m-2" href="aboutus.html">About</a>
+                    <div class="dropdown m-md-3 m-2" id="shopDropdownGroup">
+                        <div class="d-inline-flex align-items-center">
+                            <a class="text-decoration-none text-dark" href="error404.html">Pages</a>
+                            <span class="dropdown-chevron d-inline-flex align-items-center" style="cursor: pointer;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down m-1" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="productdetail.html">Product Detail</a></li>
+                            <li><a class="dropdown-item" href="register.html">Register</a></li>
+                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="error404.html">404</a></li>
+                            <li><a class="dropdown-item" href="commingsoon.html">comming soon</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-decoration-none text-dark m-md-3 m-2" href="contact.html">Contact</a>
+                </nav>
+                <div class="header-hr-down-part-input col-xxl-5 col-xl-4 col-lg-3 col-md-9 col-sm-7 col-6 align-content-center text-lg-end text-center my-1">
+                    <div class="search-container">
+                        <input class="shop-nav-input" type="text">
+                        <i class="bi bi-search search-icon"></i>
+                    </div>
+                </div>
+                <div style="max-width: 180px;" class="row col-xxl-2 align-content-center p-0">
+                    <div class="row align-items-center p-0 justify-content-end" style="max-height: 45px;">
+                        <p class="ps-4 pe-0" style="width: 70px; height: 45px; font-size: 12px; color: #777777;">Add to Wishlist</p>
+                        <img src="images/shopheart.png" alt="Heart icon" style="width: 35px; height: 50px; padding: 0px 10px 25px 0px;">
+                        <img src="/images/shoping-bag.png" alt="shoping-bag" style="width: 67px; height: 70px; padding: 0px 0px 25px 10px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid shop-product-green-section">
+        <div class="shop-product-green container mx-auto row">
+            <div class="col-lg-6 p-0 text-sm-start text-center">
+                <h1>Product Detail</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-lg-6 p-0 d-flex align-items-center justify-content-sm-end justify-content-center">
+                <h6><a style="color: #FFFFFF !important;" href="index.html">Home/Product Detail</a></h6>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid product-detail-section">
+        <div style="margin: 100px 0px;" class="container row mx-auto">
+            <div class="product-detail-img-div border p-0 d-flex justify-content-center align-items-center product-detail-section-div-1">
+                <img src="/images/pink-yougert.png" alt="pink-yougert" class="img-fluid">
+            </div>
+            <div class="product-detail-section-div-2">
+                <h1 class="fw-bold">Chocolate Spread - 250 gm</h1>
+                <div class="row product-detail-section-div-2-div-1">
+                    <img style="width: 20%;" src="/images/stars.png" alt="stars">
+                    <p style="width: 80%; margin: 0px;">4.5 / 150 Reviews</p>
+                </div>
+                <hr style="width: 80%;">
+                <h5 class="fw-bold">Overview</h5>
+                <p style="width: 80%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet nulla nec urna hendrerit interdum eu id ligula. Aenean eu scelerisque magna, sed facilisis ante.</p>
+                <h1 class="fw-bold" style="color: #FF8227;">$59.00</h1>
+                <div class="row product-detail-section-div-2-div-2">
+                    <div class="row border align-items-center justify-content-center p-0 ms-lg-2" style="width: 65px; height: 50px;">
+                        <p class="col-6 m-0 p-0">0</p>
+                        <div style="width: 20%;" class="col-6 m-0 p-0">
+                            <i style="background-color: #E3E3E3;" class="bi bi-caret-up-fill d-flex justify-content-end product-details-i-up-and-down"></i>
+                            <i style="background-color: #E3E3E3;" class="bi bi-caret-down-fill d-flex justify-content-end product-details-i-up-and-down"></i>
+                        </div>
+                    </div>
+                    <button class="healty-card-left-btn" style="padding: 10px 25px; font-size: 13px; width: 200px;margin: 0px 0px 0px 30px;">Shop Now</button>
+                </div>
+                <hr style="width: 80%;">
+                <div class="row" style="margin: 30px 0px;">
+                    <h5 class="col-sm-3 fw-bold">SKU</h5>
+                    <h5 class="col-sm-9">E002</h5>
+                    <h5 class="col-sm-3 fw-bold">Categories</h5>
+                    <h5 class="col-sm-9">Grocery, Chocolate and spread </h5>
+                </div>
+                <hr style="width: 80%;">
+                <div style="margin: 15px 0px;">
+                    <span class="fw-bold fs-5">Share this item</span>
+                <img src="/images/faceinstain.png" alt="Facebook icon" class="m-2" style="cursor: pointer;">
+                </div>
+                <div class="row">
+                    <div style="padding: 20px 0px;" class="row col-md-5 col-10 border m-0 justify-content-center align-items-center product-detail-section-div-2-cards">
+                        <div class="col-xxl-6 col-lg-4 col-6 d-flex justify-content-center align-items-center">
+                            <img style="cursor: pointer;" src="/images/delivery.png" alt="Delivery icon">
+                        </div>
+                        <div class="col-xxl-6 col-lg-8 col-6" style="cursor: pointer;">
+                            <h6 class="fw-bold m-0">Free Delivery</h6>
+                            <p class="m-0" style="color: #777777;">24/7 service</p>
+                        </div>
+                    </div>
+                    <div style="padding: 20px 0px;" class="row col-md-5 col-10 border m-0 justify-content-center align-items-center product-detail-section-div-2-cards">
+                        <div class="col-xxl-6 col-lg-4 col-6 d-flex justify-content-center align-items-center">
+                            <img style="cursor: pointer;" src="/images/return.png" alt="Returns icon">
+                        </div>
+                        <div class="col-xxl-6 col-lg-8 col-6" style="cursor: pointer;">
+                            <h6 class="fw-bold m-0">Easy returns</h6>
+                            <p class="m-0" style="color: #777777;">Within 30 days</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <p style="color: #777777; background-color:#EFEFEF; width:fit-content; padding: 20px 50px; cursor: pointer;" class="m-0">Product Description</p>
+                <p style="color: #777777; width:fit-content; padding: 20px 50px; cursor: pointer;" class="m-0">Reviews</p>
+                <hr style="color: #777777;">
+            </div>
+            <div style="width: 90%;">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <hr style="margin: 80px 0px;">
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container">
+            <div class="row text-center m-4">
+                <h1 class="fw-bold">Related products</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+            <div class="row text-center justify-content-evenly g-4">
+                <div class="col-lg-3 bg-white product-s-card border border-e1 p-0">
+                    <div>
+                        <img src="images/tomato.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Sweet Yogurt - Strawberry</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 bg-white product-s-card border border-e1 p-0">
+                    <div class="position-relative">
+                        <img src="images/w-pasta.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Fresh Milk - 500 ml</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 bg-white product-s-card border border-e1 p-0">
+                    <div>
+                        <img src="images/y-fruitmix.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Lemon Soda - 350ml</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+                <div class="col-lg-3 bg-white product-s-card border border-e1 p-0">
+                    <div>
+                        <img src="images/ketchup.png" alt="yougert" class="img-fluid">
+                    </div>
+                    <h6>Chocolate Cookies</h6>
+                    <div>
+                        <span class="text-secondary text-decoration-line-through">$20.00</span>
+                        <span class="ms-2 fw-bold price-highlight">$15.00</span>
+                    </div>
+                    <button class="product-card-s1-btn m-3">Add to Cart</button>
+                </div>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot dot-orange"></span>
+                <span class="dot dot-black"></span>
+                <span class="dot dot-orange"></span>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid Ice-cream-tub">
+        <div class="container row mx-auto">
+            <div class="col-lg-6 text-center">
+                <img src="images/Ice-Cream-Jar-new-1.png" alt="Ice Cream Jar">
+            </div>
+            <div class="col-lg-6 d-flex align-items-center flex-column justify-content-center text-center">
+                <div class="deals-title">
+                    <h3 class="m-0">DEALS OF THE MONTH</h3>
+                </div>
+                <h1>Buy 2 ice cream tubs and get <span class="highlight-free">1 free</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="countdown-dots row justify-content-center g-3">
+                    <div style="max-width: 115px;" class="col-6 col-sm-6 col-lg-3 d-flex justify-content-center">
+                        <div class="time-dot">
+                            <span class="time-number">01</span>
+                            <span class="time-label">DAYS</span>
+                        </div>
+                    </div>
+                    <div style="max-width: 115px;" class="col-6 col-sm-6 col-lg-3 d-flex justify-content-center">
+                        <div class="time-dot">
+                            <span class="time-number">03</span>
+                            <span class="time-label">HOURS</span>
+                        </div>
+                    </div>
+                    <div style="max-width: 115px;" class="col-6 col-sm-6 col-lg-3 d-flex justify-content-center">
+                        <div class="time-dot">
+                            <span class="time-number">37</span>
+                            <span class="time-label">MINUTES</span>
+                        </div>
+                    </div>
+                    <div style="max-width: 115px;" class="col-6 col-sm-6 col-lg-3 d-flex justify-content-center">
+                        <div class="time-dot">
+                            <span class="time-number">35</span>
+                            <span class="time-label">SECONDS</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="view-all-deals-btn">View All Deals</button>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div style="margin: 50px 0px;" class="container row align-items-center justify-content-center mx-auto">
+            <div class="col-lg-6 online-store-content">
+                <h1 style="font-weight: bold;">Shop with Our</h1>
+                <h1 style="font-weight: bold;"><span style="color: #30C983;">Online Grocery Store</span> Today!</h1>
+                <button class="btn" style="background-color: #000000; color: white; padding: 10px 25px; white-space: nowrap;">Get Started</button>
+            </div>
+            <div class="col-lg-6 row justify-content-end">
+                <img style="width: 80%;" src="images/online-store-img.png" alt="Online Grocery Store" class="img-fluid">
+            </div>
+            <hr style="opacity: 1;">
+        </div>
+    </section>
+    <footer style="background-color: #F5FFFB;" class="container-fluid">
+        <div style="padding: 50px 0px;" class="last-container container mx-auto row">
+            <div class="col-lg-5">
+                <a href="#"><img src="images/logo.svg" alt="logo"></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <span style="color: #30C983;">Payment Accepted <img src="images/bank-cards.png" alt="cards"></span>
+            </div>
+            <div class="col-lg-6 row m-4">
+                <div class="col-lg-4 col-md-6">
+                    <ul class="footer-list">
+                        <li><h5 style="color: #30C983;">Support</h5></li>
+                        <li><hr class="last-3rd-hr" style="color: #30C983; width: 45%; opacity: 1;"></li>
+                        <li><a href="#">Track Your Order</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Help Centre</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul class="footer-list">
+                        <li><h5 style="color: #30C983;">Useful Links</h5></li>
+                        <li><hr class="last-2nd-hr" style="color: #30C983; width: 70%; opacity: 1;"></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">News & Articles</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul class="footer-list">
+                        <li><h5 style="color: #30C983;">Contact</h5></li>
+                        <li><hr class="last-1st-hr" style="color: #30C983; width: 50%; opacity: 1;"></li>
+                        <li><a href="#"><img src="images/address.svg" alt="Address">Plaza X , XY Floor, XYZ Street, XYZ</a></li>
+                        <li><a href="#"><img src="images/Email.svg" alt="Email">yourname@email.com</a></li>
+                        <li><a href="#"><img src="images/phone.svg" alt="Phone">+123-456-7890</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <p class="col-lg-8 text-lg-start">Copyright © 2023 Grocerex By Evonicmedia. All Rights Reserved.</p>
+                <p class="col-lg-4 text-lg-end">Powered by Evonicsoft</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var chevrons = document.querySelectorAll('.dropdown-chevron');
+            chevrons.forEach(function (chevron) {
+                var dropdownEl = chevron.closest('.dropdown');
+                if (!dropdownEl) return;
+                var menu = dropdownEl.querySelector('.dropdown-menu');
+                if (!menu) return;
+
+                chevron.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    var isOpen = menu.classList.contains('show');
+                    if (isOpen) {
+                        menu.classList.remove('show');
+                        menu.setAttribute('aria-hidden', 'true');
+                        var svg = dropdownEl.querySelector('svg');
+                        if (svg) {
+                            svg.outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down m-1" viewBox="0 0 16 16">' +
+                                '<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>' +
+                                '</svg>';
+                        }
+                    } else {
+                        menu.classList.add('show');
+                        menu.setAttribute('aria-hidden', 'false');
+                        var svg = dropdownEl.querySelector('svg');
+                        if (svg) {
+                            svg.outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up m-1" viewBox="0 0 16 16">' +
+                                '<path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>' +
+                                '</svg>';
+                        }
+                    }
+                });
+            });
+
+            document.addEventListener('click', function (e) {
+                document.querySelectorAll('.dropdown.show .dropdown-menu.show').forEach(function (menu) {
+                    var dd = menu.closest('.dropdown');
+                    if (dd && !dd.contains(e.target)) {
+                        menu.classList.remove('show');
+                        menu.setAttribute('aria-hidden', 'true');
+                        var svg = dd.querySelector('svg');
+                        if (svg && svg.classList.contains('bi-chevron-up')) {
+                            svg.outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down m-1" viewBox="0 0 16 16">' +
+                                '<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>' +
+                                '</svg>';
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
